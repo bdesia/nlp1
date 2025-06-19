@@ -48,4 +48,12 @@ This project demonstrates how to build a next word prediction model using a Long
 
 This project implies a Question-Answering (QA) Bot using sequence-to-sequence models with LSTMs, trained on conversational data.
 
+*Features*
+- Utilizes data from Conversational Intelligence Challenge 2
+- Tokenization and n-gram sequence generation for preparing training data.
+- Use of FastText pre-trained embeddings.
+- LSTM-based encoder-decoder architecture for Seq2Seq model.
+- Ability to **answer** given a question.
+- Save and load trained models and encoder/decoders for future use.
+
 *Notebook:* [Desafio4/Desafio_4.ipynb](Desafio4/Desafio_4.ipynb)
