@@ -46,14 +46,14 @@ This project demonstrates how to build a next word prediction model using a Long
 
 **Challenge #4: QA bot Project**
 
-This project implies a Question-Answering (QA) Bot using sequence-to-sequence models with LSTMs, trained on conversational data.
+This project involves developing a question-answering chatbot utilizing sequence-to-sequence models with LSTM units, trained on conversational data.
 
 *Features*
-- Utilizes data from Conversational Intelligence Challenge 2
-- Tokenization and n-gram sequence generation for preparing training data.
-- Use of FastText pre-trained embeddings.
-- LSTM-based encoder-decoder architecture for Seq2Seq model.
-- Ability to **answer** given a question.
-- Save and load trained models and encoder/decoders for future use.
+- Incorporates data from the **Conversational Intelligence Challenge 2**.
+- Implements **tokenization** and **n-gram sequence generation** for preparing training datasets.
+- Employs **FastText pre-trained embeddings** to enhance linguistic understanding.
+- Utilizes an **LSTM-based encoder-decoder architecture** for sequence modeling.
+- Capable of **generating answers** given a question input.
+- Supports **saving and loading** trained models and encoder/decoder components for future deployment.
 
 *Notebook:* [Desafio4/Desafio_4.ipynb](Desafio4/Desafio_4.ipynb)
